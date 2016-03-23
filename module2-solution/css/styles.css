@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 }
-
 p {
   width: 100px;
   border: 1px solid black;
@@ -12,11 +11,9 @@ p {
   margin-top: 0;
   text-align: center;
 }
-
 h1 {
   text-align: center;
 }
-
 #p1 {
   background-color: blue;
 }
@@ -26,8 +23,7 @@ h1 {
 #p3 {
   background-color: yellow;
 }
-
-#contents{
+#contents {
   padding: 10px;
 }
 
@@ -35,11 +31,9 @@ h1 {
 .row {
   width: 100%;
 }
-
 div {
   clear: right;
 }
-
 .col-lg-4, .col-lg-6, .col-lg-12 {
   float: left;
   position: relative;
@@ -49,14 +43,14 @@ div {
 }
 
 /********** Large devices only **********/
-@media (min-width: 992px) {
+@media (min-width:992px) {
   .col-lg-4 {
     width: 31%;
   }
 }
 
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width:768px) and (max-width:991px) {
   .col-md-6 {
     width: 48%;
   }
